@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  <body>
+    <div class="conteiner">
+      <div class="cal">
+        <input type="text" id="resultInput">
+        <div class="operator" onClick="erres()">C</div>
+        <div class="operator" onClick="del()">CE</div>
+        <div class="operator" onClick="setVal('%')">%</div>
+        <div class="operator" onClick="setVal('+')">+</div>
+        <div class="operator" onClick="setVal(1)">1</div>
+        <div class="operator" onClick="setVal(2)">2</div>
+        <div class="operator" onClick="setVal(3)">3</div>
+        <div class="operator" onClick="setVal('-')">-</div>
+        <div class="operator" onClick="setVal(4)">4</div>
+        <div class="operator" onClick="setVal(5)">5</div>
+        <div class="operator" onClick="setVal(6)">6</div>
+        <div class="operator" onClick="setVal('*')">*</div>
+        <div class="operator" onClick="setVal(7)">7</div>
+        <div class="operator" onClick="setVal(8)">8</div>
+        <div class="operator" onClick="setVal(9)">9</div>
+        <div class="operator" onClick="setVal('/')">/</div>
+        <div class="operator" onClick="setVal(0)">0</div>
+        <div class="operator" onClick="setVal('^')">^</div>
+        <div class="operator" onClick="setVal('00')">00</div>
+        <div class="operator" onClick="result()">=</div>
+
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
